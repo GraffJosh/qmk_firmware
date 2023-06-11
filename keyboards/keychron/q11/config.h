@@ -32,6 +32,7 @@
 #define DRIVER_1_LED_TOTAL 89
 #define RGB_MATRIX_LED_COUNT DRIVER_1_LED_TOTAL
 #define SPLIT_TRANSPORT_MIRROR
+#define RGBLIGHT_LAYERS_RETAIN_VAL
 
 /* Increase I2C speed to 1000 KHz */
 #define I2C1_TIMINGR_PRESC 0U
@@ -54,7 +55,9 @@
 #define ENCODER_DEFAULT_POS 0x3
 
 /* Disable RGB lighting when PC is in suspend */
-#define RGB_DISABLE_WHEN_USB_SUSPENDED
+//#define RGB_DISABLE_WHEN_USB_SUSPENDED 1
+//#define RGB_DISABLE_TIMEOUT 10000 // milliseconds
+#define RGBLIGHT_DEFAULT_MODE RGB_MATRIX_TYPING_HEATMAP
 
 // RGB Matrix Animation modes. Explicitly enabled
 // For full list of effects, see:
