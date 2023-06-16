@@ -1,3 +1,4 @@
 ENCODER_MAP_ENABLE = yes
 VIA_ENABLE = yes
 AUTOCORRECT_ENABLE = yes
+# SRC += graffjosh.c
